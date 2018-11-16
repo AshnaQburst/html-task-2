@@ -1,0 +1,18 @@
+@mixin relative() {
+    position: relative;
+}
+
+@mixin absolute($top:inherit, $bottom:inherit, $left:inherit, $right:inherit) {
+    position: absolute;
+    top: $top;
+    bottom: $bottom;
+    left: $left;
+    right: $right;
+}
+
+@mixin circle($dimension:inherit, $background:inherit) {
+    height: $dimension;
+    width: $dimension;
+    border-radius: 50%;
+    background: $background;
+}

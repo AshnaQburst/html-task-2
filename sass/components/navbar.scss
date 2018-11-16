@@ -1,0 +1,22 @@
+.navbar{
+    @extend .full-width;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    figure{
+        margin: 0;
+        display: inline-block;
+        img{ height: 35px;;}
+    }
+    .navigation-list{
+        list-style: none;
+        float: right;
+        li{
+            display: inline-block;
+            padding: 0px 10px;
+            a{ 
+                text-decoration: none;
+                color: #ffffff;
+            }
+        }
+    }
+}
