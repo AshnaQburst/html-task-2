@@ -1,0 +1,13 @@
+.search-result-section{
+    button{
+        background: #ffffff;
+        padding: 15px 25px;
+        z-index: 1;
+        font-weight: bold;
+        font-size: 16px;
+        border: 1px solid red;
+        border-radius: 50px;
+        @include absolute($top: inherit, $bottom: 5px, $left: 50%, $right: inherit);
+        transform: translateX(-50%);
+    }
+}
