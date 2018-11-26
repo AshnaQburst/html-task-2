@@ -14,6 +14,8 @@ body{
     @extend .full-width;
     background: url('../assets/images/banner_web.jpg');
     margin-bottom: 45px;
+    background-position: center;
+    background-size: cover;
     @include relative();
     .banner-caption{
         width: 400px;
@@ -389,8 +391,8 @@ body{
                 &:first-child{ background: #dbe5f3; }
                 &:last-child{ background: #aabedb; }
             }
-            @media (max-width:950px) { top: -58px;}
-            @media (max-width: 767px) {
+            @media (max-width:$screen-md-min) { top: -58px;}
+            @media (max-width: $screen-sm-max) {
                 top: inherit;
             }
         }
@@ -408,17 +410,17 @@ body{
                 z-index: 10;
                 font-size: 14px;
                 line-height: 1.5;
-                @media (max-width:950px) {
+                @media (max-width:$screen-md-min) {
                     font-size: 12px;
                 }
             }
         }
-        @media (max-width: 950px) {  width: 700px; }
+        @media (max-width: $screen-md-min) {  width: 700px; }
         @media (max-width: $screen-sm-max) {
             flex-direction: column;
         }
     }
-    @media (max-width: 950px) {
+    @media (max-width: $screen-md-min) {
         padding: 60px 0px;
     }
 }

@@ -107,6 +107,8 @@ body {
   height: 300px;
   background: url("../assets/images/banner_web.jpg");
   margin-bottom: 45px;
+  background-position: center;
+  background-size: cover;
   position: relative; }
   .banner .banner-caption {
     width: 400px;

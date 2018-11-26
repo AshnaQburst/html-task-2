@@ -6,7 +6,7 @@
     margin: 72.17px 0;
     border-left: solid 1px #ffffff;
     border-right: solid 1px #ffffff;
-    @media (max-width:950px) {
+    @media (max-width:$screen-md-min) {
         width: 200px;
         height: 115.47px;
         margin: 57.74px 0;
@@ -32,7 +32,7 @@
     transform: scaleY(0.5774) rotate(-45deg);
     background-color: inherit;
     left: 35.6117px;
-    @media (max-width: 950px) {
+    @media (max-width: $screen-md-min) {
         width: 141.42px;
         height: 141.42px;
         left: 28.2893px;
@@ -46,7 +46,7 @@
     top: -88.3883px;
     border-top: solid 1.4142px #ffffff;
     border-right: solid 1.4142px #ffffff;
-    @media (max-width:950px) {
+    @media (max-width:$screen-md-min) {
         top: -70.7107px;
     }
   }
@@ -55,7 +55,7 @@
     bottom: -88.3883px;
     border-bottom: solid 1.4142px #ffffff;
     border-left: solid 1.4142px #ffffff;
-    @media (max-width:950px) {
+    @media (max-width:$screen-md-min) {
         bottom: -70.7107px;
     }
   }
